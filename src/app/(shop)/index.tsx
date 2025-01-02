@@ -1,4 +1,11 @@
-import { FlatList, StyleSheet, Text, View } from "react-native";
+import {
+  FlatList,
+  Platform,
+  StatusBar,
+  StyleSheet,
+  Text,
+  View,
+} from "react-native";
 
 import { PRODUCTS } from "../../../assets/products";
 import { ProductListItem } from "../../components/product-list-item";
@@ -7,6 +14,9 @@ import { ListHeaader } from "../../components/list-header";
 const Home = () => {
   return (
     <View>
+      <StatusBar
+        barStyle={Platform.OS === "android" ? "light-content" : "default"}
+      />
       <FlatList
         data={PRODUCTS}
         renderItem={({ item }) => <ProductListItem product={item} />}

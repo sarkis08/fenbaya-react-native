@@ -5,6 +5,7 @@ export const PRODUCTS: Product[] = [
     id: 1,
     title: 'Macbook Pro (2024)',
     slug: 'macbook-pro-2024',
+    description: 'lorem ipsum dolor sit amet, consectetur adip eum non pro et dolor lorem ipsum dolor sit amet, consectetur adip',
     heroImage: require('../assets/images/mac-book-1.jpg'),
     imagesUrl: [
       require('../assets/images/mac-book-1.jpg'),
@@ -23,6 +24,7 @@ export const PRODUCTS: Product[] = [
     id: 5,
     title: 'Dell XPS 13',
     slug: 'dell-xps-13',
+    description: 'lorem ipsum dolor sit amet, consectetur adip eum non pro et dolor lorem ipsum dolor sit amet, consectetur adip',
     heroImage: require('../assets/images/dell-1.jpg'),
     imagesUrl: [
       require('../assets/images/dell-1.jpg'),
@@ -40,6 +42,7 @@ export const PRODUCTS: Product[] = [
     id: 2,
     title: 'IPhone 15',
     slug: 'i-phone-15',
+    description: 'lorem ipsum dolor sit amet, consectetur adip eum non pro et dolor lorem ipsum dolor sit amet, consectetur adip',
     heroImage: require('../assets/images/i-phone-1.jpg'),
     imagesUrl: [
       require('../assets/images/i-phone-2.jpg'),
@@ -57,6 +60,7 @@ export const PRODUCTS: Product[] = [
     id: 6,
     title: 'Samsung Galaxy S21',
     slug: 'samsung-galaxy-s21',
+    description: 'lorem ipsum dolor sit amet, consectetur adip eum non pro et dolor lorem ipsum dolor sit amet, consectetur adip',
     heroImage: require('../assets/images/samsung-1.jpg'),
     imagesUrl: [
       require('../assets/images/samsung-1.jpg'),
@@ -74,6 +78,7 @@ export const PRODUCTS: Product[] = [
     id: 3,
     title: 'Headset',
     slug: 'headset',
+    description: 'lorem ipsum dolor sit amet, consectetur adip eum non pro et dolor lorem ipsum dolor sit amet, consectetur adip',
     heroImage: require('../assets/images/head-set-1.jpg'),
     imagesUrl: [
       require('../assets/images/head-set-1.jpg'),
@@ -91,6 +96,7 @@ export const PRODUCTS: Product[] = [
     id: 4,
     title: 'PlayStation 5',
     slug: 'playstation-5',
+    description: 'lorem ipsum dolor sit amet, consectetur adip eum non pro et dolor lorem ipsum dolor sit amet, consectetur adip',
     heroImage: require('../assets/images/ps-5-1.jpg'),
     imagesUrl: [
       require('../assets/images/ps-5-1.jpg'),
@@ -109,6 +115,7 @@ export const PRODUCTS: Product[] = [
     id: 7,
     title: 'Nintendo Switch',
     slug: 'nintendo-switch',
+    description: 'lorem ipsum dolor sit amet, consectetur adip eum non pro et dolor lorem ipsum dolor sit amet, consectetur adip',
     heroImage: require('../assets/images/nintendo-switch-1.jpg'),
     imagesUrl: [
       require('../assets/images/nintendo-switch-1.jpg'),

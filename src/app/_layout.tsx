@@ -1,8 +1,10 @@
 import { Stack } from "expo-router";
+import { ToastProvider } from "react-native-toast-notifications"
 
 export default function RootLayout() {
   return (
-    <Stack>
+    <ToastProvider>
+      <Stack>
       {/* Add your routes here */}
       <Stack.Screen
         name="(shop)"
@@ -14,7 +16,7 @@ export default function RootLayout() {
       />
       <Stack.Screen
         name="product"
-        options={{ headerShown: true, title: "Product" }}
+        options={{ headerShown: false, title: "Product" }}
       />
       <Stack.Screen
         name="cart"
@@ -25,5 +27,6 @@ export default function RootLayout() {
         options={{ headerShown: true }}
       />
     </Stack>
+    </ToastProvider>
   );
 }

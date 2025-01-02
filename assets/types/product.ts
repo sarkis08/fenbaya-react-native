@@ -4,6 +4,7 @@ import { Category } from './category';
 export type Product = {
   id: number;
   title: string;
+  description: string;
   slug: string;
   imagesUrl: ImageSourcePropType[];
   price: number;
