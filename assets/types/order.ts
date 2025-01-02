@@ -1,6 +1,6 @@
 import { Product } from './product';
 
-export type OrderStatus = 'Pending' | 'Completed' | 'Shipped' | 'InTransit';
+export type OrderStatus = 'Pending' | 'Processing' | 'Shipped' | 'InTransit' | 'Delivered' ;
 
 export type Order = {
   id: string;

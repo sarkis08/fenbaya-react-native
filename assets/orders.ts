@@ -31,7 +31,7 @@ export const ORDERS: Order[] = [
     id: '2',
     item: 'Order 2',
     details: 'Details about order 2',
-    status: 'Completed',
+    status: 'Processing',
     slug: 'order-2',
     date: '2024-07-02',
     items: [
@@ -85,6 +85,32 @@ export const ORDERS: Order[] = [
     details: 'Details about order 4',
     status: 'InTransit',
     slug: 'order-4',
+    date: '2024-07-04',
+    items: [
+      {
+        id: 7,
+        title: 'Product 7',
+        slug: 'product-7',
+        imagesUrl: ['url7'],
+        price: 70.0,
+        heroImage: require('../assets/images/head-set-1.jpg'),
+      },
+      {
+        id: 8,
+        title: 'Product 8',
+        slug: 'product-8',
+        imagesUrl: ['url8'],
+        price: 80.0,
+        heroImage: require('../assets/images/head-set-1.jpg'),
+      },
+    ],
+  },
+  {
+    id: '5',
+    item: 'Order 5',
+    details: 'Details about order 5',
+    status: 'Delivered',
+    slug: 'order-5',
     date: '2024-07-04',
     items: [
       {
