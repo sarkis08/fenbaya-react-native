@@ -10,6 +10,7 @@ import {
 import { PRODUCTS } from "../../../assets/products";
 import { ProductListItem } from "../../components/product-list-item";
 import { ListHeaader } from "../../components/list-header";
+import Auth from "../auth";
 
 const Home = () => {
   return (

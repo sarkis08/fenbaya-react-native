@@ -1,6 +1,6 @@
 import { FlatList, ListRenderItem, Pressable, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { Link } from 'expo-router'
+import { Link, Stack } from 'expo-router'
 
 import { Order, OrderStatus } from '../../../../assets/types/order'
 import { ORDERS } from '../../../../assets/orders'
@@ -33,6 +33,7 @@ const renderItem: ListRenderItem<Order> = ({ item }) => <Link href={`/orders/${i
 const Orders = () => {
   return (
     <View style={styles.container}>
+      <Stack.Screen options={{ title: "Order" }} />
       <FlatList 
         data={ORDERS}
         keyExtractor={(item) => item.id.toString()}
